@@ -41,4 +41,5 @@ body {
     font-family: sans-serif, 'Ubuntu';
     letter-spacing: -.02em;
     background-color: var(--white);
+    overflow-x: hidden;
 }
