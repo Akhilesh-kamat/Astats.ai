@@ -40,7 +40,7 @@
 
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/nav.css">
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
     <title>Astats.ai</title>
 
 </head>
@@ -53,7 +53,9 @@
             <div class="desktop-nav-wrapper flex">
                 <nav class="">
                     <div class="logo flex-center">
+                        <a href="" class="flex-center">
                         <img src="media/icons/logo.jpg" alt="Astats.ai logo">
+                    </a>
                     </div>
                     <div class="menu-wrapper">
                         <ul class="">
@@ -73,14 +75,35 @@
                     <div class="lets-talk flex-center">
                         <a href="#">LET'S TALK</a>
                     </div>
-                    <div class="menu-btn flex-center ">MENU</div>
+                    <div id="menu-btn" class="menu-btn flex-center ">MENU</div>
                 </nav>
-                
+            </div>
+            <div id="mobile-nav-wrapper" class="mobile-nav-wrapper">
+                <nav> 
+                <div class="menu-wrapper">
+                    <ul class="">
+                        <a href="">
+                            <li>Industry Expertise</li>
+                        </a><a href="">
+                            <li>Our Services</li>
+                        </a><a href="">
+                            <li>Insights</li>
+                        </a><a href="">
+                            <li>Career</li>
+                        </a><a href="">
+                            <li>About us</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+                <div class="lets-talk flex-center ">
+                    <a href="#">LET'S TALK</a>
+                </div>
             </div>
         </header>
 
         <main>
-            
+
         </main>
 
         <footer>

@@ -2,7 +2,7 @@
 
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,30 +15,30 @@
     --blue: #0000FF;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.border{
+.border {
     border: 2px solid blue;
 }
 
-body{
+body {
     width: 100vw;
     min-height: 100vh;
     font-size: 1.6rem;
     position: relative;
-    font-family: sans-serif,'Ubuntu';
+    font-family: sans-serif, 'Ubuntu';
     letter-spacing: -.02em;
     background-color: var(--white);
 }
