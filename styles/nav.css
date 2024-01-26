@@ -14,9 +14,20 @@ header {
     border-radius: 0 0 0 0;
     background-color: rgba(255, 255, 255, .5);
     backdrop-filter: blur(24px);
-    position: fixed;
+    position: relative;
+    top: 0;
+    transition: transform 0.4s ease-in, background-color 0.3s;
     /* border: 2px solid red; */
     box-shadow: 0 0 5px 0 rgba(158,158,158,0.5);
+    
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    /* transform: translateY(-100%); */
+    /* background-color: #555; */
+    /* transform: translateY(0px); */
 }
 
 .desktop-nav-wrapper .logo {
