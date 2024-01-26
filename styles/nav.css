@@ -152,7 +152,7 @@ header {
     z-index: 90;
     background-color: var(--white);
     transition: transform 400ms ease 0s;
-    transform: translateY(-550px);
+    transform: translateY(-1200px);
 }
 
 .mobile-nav-wrapper.active{
