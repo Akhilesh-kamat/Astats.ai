@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 *,
 *::before,
 *::after {
@@ -38,8 +37,9 @@ body {
     min-height: 100vh;
     font-size: 1.6rem;
     position: relative;
-    font-family: sans-serif, 'Ubuntu';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -.02em;
     background-color: var(--white);
     overflow-x: hidden;
 }
+
