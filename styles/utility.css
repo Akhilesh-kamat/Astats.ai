@@ -39,7 +39,7 @@ body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     letter-spacing: -.02em;
-    background-color: var(--white);
+    background-color: var(--black);
     overflow-x: hidden;
 }
 
