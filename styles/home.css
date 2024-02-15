@@ -175,3 +175,24 @@
     letter-spacing: 0;
     line-height: 24px;
 }
+
+.circle-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.circle-wrap span{
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .4);
+    /* border: 2px solid var(--white); */
+    border-radius: 50%;
+}
+
+.circle-wrap span:nth-child(1){
+    background-color: var(--white);
+}
