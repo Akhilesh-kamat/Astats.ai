@@ -38,7 +38,7 @@ window.addEventListener("scroll", handleScroll);
 window.addEventListener("scroll", handleScroll);
 
 
-// circle active function
+// circle active function 
 
 var spans = document.querySelectorAll('.circle-wrap span');
 
@@ -52,4 +52,7 @@ spans.forEach(span => {
     span.classList.add("active");
   })
 })
+
+
+
 
