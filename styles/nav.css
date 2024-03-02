@@ -20,7 +20,7 @@ header {
     top: 0;
     transition: transform 0.4s ease-in, background-color 0.3s;
     /* border: 2px solid red; */
-    box-shadow: 0 0 5px 0 rgba(158,158,158,0.5);
+    /* box-shadow: 0 0 5px 0 rgba(158,158,158,0.5); */
     
 }
 

@@ -89,8 +89,7 @@
 
 #blue-section{
     max-width: 1920px;
-    box-shadow: 0 0 100px 0 var(--blue);
-    background-color: var(--blue);
+    background-color: var(--grey);
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 120px;
