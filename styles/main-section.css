@@ -1,86 +1,72 @@
 #hero-section {
     width: 100%;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     /* text-align: center; */
-    background-color: var(--white);
-    padding-top: 12.8rem;
+    background-image: url("../media/images/hero-background.webp");
+    padding-top: 12.3rem;
     position: relative;
-    border-bottom-right-radius: 80px;
-    border-bottom-left-radius: 80px;
-    padding-bottom: 12rem;
+    background-position: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid yellow; */
+    background-position: right top;
+    background-size: 95%;
 }
 
 #hero-section .hero-content-container h1 {
+    
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #16d0af, #5f78e9);
+    -webkit-background-clip: text;
+    background-clip: text;
     margin-top: 0;
-    margin-bottom: 0;
-    font-size: 140px;
-    font-weight: 400;
-    color: var(--black);
-    display: block;
-    text-align: center;
-    line-height: 90%;
+    letter-spacing: -.5px;
+    margin-bottom: .5em;
+    font-size: 3.4em;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 #hero-section .hero-content-container {
-    max-width: 1440px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-#hero-section .hero-content2-container {
-    margin-top: 6rem;
-    z-index: 1;
+    max-width: 666px;
+    /* border: 2px solid red; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    grid-row-gap: 4.6rem;
-    text-align: left;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    min-height: 100%;
+    padding-left: 12.3rem;
+    margin-bottom: 11.5rem;
 }
 
-#hero-section .hero-content2-container .video-wrapper {
-    width: 660px;
-    max-width: 100%;
-    border: 1px solid rgb(231, 231, 231);
-    border-radius: 8px;
-    height: 500px;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
+#hero-section .hero-content-container h3{
+    color: var(--white);
+    letter-spacing: -.25px;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    /* padding-right: 2rem; */
+  
 }
 
-#hero-section .hero-content2-container .video-wrapper video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-position: 50%;
-    background-size: cover;
-    margin: auto;
-    position: absolute;
-    top: -100%;
-    bottom: -100%;
-    left: -100%;
-    right: -100%;
-}
-
-.hero-description-wrapper {
-    max-width: 66rem;
-}
-
-.hero-description-wrapper h3 span {
-    font-weight: 500;
+#hero-section .hero-content-container a{
+   text-decoration: none;
+   color: var(--black);
+   padding-left: 2.7rem;
+   padding-right: 2.7rem;
+   background-color: var(--white);
+   text-align: center;
+    border-style: none;
+    border-radius: 0;
+    font-weight: 600;
+    margin: 1em 0;
+    padding: .75em 2.7em .6em 2.7em;
+    transition: background-color .12s cubic-bezier(.455,.03,.515,.955);
+    margin-top: .5em;
 }
 
 
-.hero-description-wrapper h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 40px;
-    font-weight: 200;
-    line-height: 110%;
-}
+
+
+
+
 
 .hero-content3-container{
     /* border: 2px solid yellow; */
@@ -88,6 +74,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
 }
 
 .hero-content3-container .insights-wrapper{
@@ -98,18 +85,19 @@
     position: relative;
     margin-top: 4rem;
     padding-top: 4rem;
-    
+    color: var(--white);
 }
+
+
 .hero-content3-container .insights-wrapper::before{
     content: "";
-    background-color: var(--black);
+    background-color: var(--white);
     height: .5px;
     width: 100%;
     opacity: 0.2;
     position: absolute;
     top: 0;
     margin: 0 4rem;
-    
 }
 
 .hero-content3-container .insights-wrapper .insight{
@@ -126,7 +114,7 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: 120%;
-    color: var(--black);
+    color: var(--white);
     margin-right: 16px;
     font-size: 64px;
     font-weight: 400;
@@ -137,7 +125,6 @@
 .hero-content3-container .insights-wrapper .insight h4{
     font-size: 25px;
     font-weight: 400;
-
 }
 
 
